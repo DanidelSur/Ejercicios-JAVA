@@ -1,0 +1,63 @@
+Combinaciones de teclas en Hair-laptop:
+	Barra invertida: (Ctrl + Alt + ?) 	= \
+	Corchetes: (mayús + { . mayús + }) 	= []
+	Guion ondado: (ctrl + alt + +) 		= ~
+
+		|Comandos git|
+
+Iniciar consola git-bash/terminal:
+
+	~	git init - inicializacion del repository local.
+	~	git config username "..." - pre definir usuario admin del trabajo.
+	~	git config email "..." - definir un email para contacto y autor de los comentarios.
+	~ 	git status - observar que archivos estan preparados para sus modificaciones.
+	~	git branch - observar desde que rama se esta trabajando.
+	~	git branch 'rama' - crear rama nueva para modificaciones sin riesgo.
+	~	git checkout 'rama' - cambiar de rama.
+	~	git add 'archivo','.' - Agregar archivo/s para ser subidos o confirmados a trabajar.
+	~	git commit -m "..." - Comentarios para agregar a los archivos selecionados a subir, modificar, creados.
+	~	git remote add origin 'URL' - Agregar un repositorio remoto desde GitHub.
+	~	git push origin master - Confirmar y subir cambios u modificaciones al repositorio remoto.
+	~	git clone 'URL' - clonar o copiar archivos de un repositorio remoto.
+	~	git pull 'URL' - traer cambios o aplicar modificaciones desde un repositorio remoto.
+	~	git merge branch 'master' - trae cambios listos y preparados a la rama principal.
+
+********************
+
+echo "# Trabajo-Integrador-JAVA" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/DanidelSur/Trabajo-Integrador-JAVA.git
+git push -u origin master
+
+git remote add origin https://github.com/DanidelSur/Trabajo-Integrador-JAVA.git
+git branch -M master
+git push -u origin master
+
+********************
+
+
+
+		|Comandos Java|
+
+Ver...
+
+	~npm java --version - ver version de java instalado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
